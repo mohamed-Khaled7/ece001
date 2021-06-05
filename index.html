@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8"/>
+<title>Mohamed khaled ahmed</title>
+<h1 style="text-align: center;">Cryptography</h1>
+<h2 style="font-size: xx-large;">defination:</h2>
+    </head>
+    <body>
+<p style="font-size: x-large;">Cryptography is a method of protecting information and communications through the use of codes, so that only those for whom the information is intended can read and process it. The prefix "crypt-" means "hidden" or "vault" -- and the suffix "-graphy" stands for "writing."
+
+    In computer science, cryptography refers to secure information and communication techniques derived from mathematical concepts and a set of rule-based calculations called algorithms, to transform messages in ways that are hard to decipher. These deterministic algorithms are used for cryptographic key generation, digital signing, verification to protect data privacy, web browsing on the internet, and confidential communications such as credit card transactions and email.</p>
+<h2 style="font-size: xx-large;">
+    Cryptography techniques:
+</h2>    
+<p style="font-size: x-large;">Cryptography is closely related to the disciplines of cryptology and cryptanalysis. It includes techniques such as microdots, merging words with images, and other ways to hide information in storage or transit. However, in today's computer-centric world, cryptography is most often associated with scrambling plaintext (ordinary text, sometimes referred to as cleartext) into ciphertext (a process called encryption), then back again (known as decryption). Individuals who practice this field are known as cryptographers.
+
+</p>
+<video controls width="1000" height="600" autoplay loop>
+    <source src="What is Cryptography- The Importance of Cryptography.mp4" type="video/mp4">
+
+    <source src="What is Cryptography- The Importance of Cryptography.ogg" type="video/ogg">
+    <track src="my_file_ar_vtt" kind="subtitles" srclang="ar" label="Arabic">
+    <track src="my_file_en_vtt" kind="subtitles" srclang="en" label="English">
+</video>
+<h3 style="font-size: xx-large;">Modern cryptography concerns itself with the following four objectives:</h3>
+<div style="font-size: x-large;">
+    <ol>
+    <li><strong>Confidentiality:</strong>the information cannot be understood by anyone for whom it was unintended
+    </li>
+<li><strong>Integrity:</strong> the information cannot be altered in storage or transit between sender and intended receiver without the alteration being detected</li>
+<li><strong>Non-repudiation:</strong>the creator/sender of the information cannot deny at a later stage his or her intentions in the creation or transmission of the information</li>
+<li><strong>Authentication:</strong>the sender and receiver can confirm each other's identity and the origin/destination of the information</li>
+</ol>
+</div>
+<img src="security_cissp_cryptography.jpg" alt="">
+<div style="font-size: x-large;">
+    <h2>Cryptographic algorithms</h2>
+<P>Cryptosystems use a set of procedures known as cryptographic algorithms, or ciphers, to encrypt and decrypt messages to secure communications among computer systems, devices such as smartphones, and applications. A cipher suite uses one algorithm for encryption, another algorithm for message authentication, and another for key exchange. This process, embedded in protocols and written in software that runs on operating systems and networked computer systems, involves public and private key generation for data encryption/decryption, digital signing and verification for message authentication, and key exchange.</P>
+<img src="5_cryptography-and-data-protection-100768038-large.jpg" alt="">
+<h2>History of cryptography</h2>
+<p>This is all very abstract, and a good way to understand the specifics of what we're talking about is to look at one of the earliest known forms of cryptography. It's known as the Caesar cipher, because Julius Caesar used it for his confidential correspondence; as his biographer Suetonius described it, "if he had anything confidential to say, he wrote it in cipher, that is, by so changing the order of the letters of the alphabet ... If anyone wishes to decipher these, and get at their meaning, he must substitute the fourth letter of the alphabet, namely D, for A, and so with the others."
+
+    Suetonius's description can be broken down into the two cryptographic elements we've discussed, the algorithm and the key. The algorithm here is simple: each letter is replaced by another letter from later in the alphabet. The key is how many letters later in the alphabet you need to go to create your ciphertext. It's three in the version of the cipher Suetonius describes, but obviously other variations are possible — with a key of four, A would become E, for instance.
+    
+    A few things should be clear from this example. Encryption like this offers a fairly simple way to secretly send any message you like. Contrast that with a system of code phrases where, say, "Let's order pizza" means "I'm going to invade Gaul."  To translate that sort of code, people at both ends of the communication chain would need a book of code phrases, and you'd have no way to encode new phrases you hadn't thought of in advance. With the Caesar cipher, you can encrypt any message you can think of. The tricky part is that everyone communicating needs to know the algorithm and the key in advance, though it's much easier to safely pass on and keep that information than it would be with a complex code book.</p>
+<h2>What is cryptography used for?</h2>
+
+<p>We've already discussed some of the specific applications of cryptography, from keeping military secrets to transmitting financial data safely across the internet. In the bigger picture, though, there are some broad cybersecurity goals that we use cryptography to help us achieve, as cybersecurity consultant Gary Kessler explains. Using cryptographic techniques, security pros can:</p>
+<ul>
+    <li>Keep the contents of data confidential</li>
+    <li>Authenticate the identity of a message's sender and receiver</li>
+    <li>Ensure the integrity of the data, showing that it hasn't been altered</li>
+    <li>Demonstrate that the supposed sender really sent this message, a principle known as non-repudiation</li>
+</ul>
+<h2>Cryptography examples and techniques</h2>
+<p>There are numerous techniques and algorithms that implement each of the three types of encryption discussed above. They are generally quite complex and beyond the scope of this article; we've included links here where you can learn more about some of the most commonly used examples.</p>
+<h2>Secret key encryption:</h2>
+<ul>
+    <li><a href="https://www.vocal.com/cryptography/tdes/" target="_blank">Triple DES</a>,the modern successor to DES discussed above</li>
+    <li><a href="https://www.schneier.com/academic/blowfish/" target="_blank">Blowfish</a> and its successor</li>
+    <li><a href="https://www.schneier.com/academic/twofish/" target="_blank">Twofish</a> ,both from security legend Bruce Schneier</li>
+    <hr />
+    <table border="1">
+        <caption>Comparison-between-different-cryptography-algorithms</caption>
+        <thead>
+            <tr>
+                <td><strong>algorithm</strong></td>
+                <td><strong>NSBOX</strong></td>
+                <td><strong>INPUT</strong></td>
+                <td><strong>OUTPUT</strong></td>
+                <td><strong>LIN</strong></td>
+                <td><strong>COL</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DES</td>
+                <td>8</td>
+                <td>6</td>
+                <td>4</td>
+                <td>1 e 6</td>
+                <td>2,3,4,5</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>AES</td>
+                <td>1</td>
+                <td>8</td>
+                <td>8</td>
+                <td>1,2,3,4</td>
+                <td>5,6,7,8</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Serpent</td>
+                <td>8</td>
+                <td>4</td>
+                <td>4</td>
+                <td>--</td>
+                <td>1,2,3,4</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Cast-128</td>
+                <td>4</td>
+                <td>8</td>
+                <td>32</td>
+                <td>--</td>
+                <td>1 - 8</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>MARS</td>
+                <td>2</td>
+                <td>8</td>
+                <td>32</td>
+                <td>--</td>
+                <td>1 - 8</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Twofish</td>
+                <td>8</td>
+                <td>4</td>
+                <td>4</td>
+                <td>--</td>
+                <td>1 - 4</td>
+            </tr>
+        </tbody>
+            <tr>
+                <td>Magenta</td>
+                <td>1</td>
+                <td>8</td>
+                <td>8</td>
+                <td>--</td>
+                <td>1 - 8</td>
+            </tr>
+        </tbody>
+            <tr>
+                <td>Frog</td>
+                <td>1</td>
+                <td>8</td>
+                <td>8</td>
+                <td>--</td>
+                <td>1 - 8</td>
+            </tr>
+        </tbody>
+            <tr>
+                <td>Blowfish</td>
+                <td>4</td>
+                <td>8</td>
+                <td>32</td>
+                <td>--</td>
+                <td>1 - 8</td>
+            </tr>
+        </tbody>
+            <tr>
+                <td>LOK197</td>
+                <td>2</td>
+                <td>14</td>
+                <td>8</td>
+                <td>--</td>
+                <td>1 - 14</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+</ul>
+<h2>to know more about cryptography:</h2>
+<ul>
+    <li>There are a wide range of hash functions with different specialized purposes.The <a href="https://en.wikipedia.org/wiki/List_of_hash_functions" target="_blank">list on wikipedia</a> is a good place to start.</li>
+    <li><a href="https://www.csoonline.com/article/3276008/21-best-free-security-tools.html" target="_blank">21 best free security tools</a></li>
+    <li><a href="https://www.csoonline.com/article/3619011/the-10-most-dangerous-cyber-threat-actors.html" target="_blank">The 10 most dangerous cyber threat actors </a></li>
+    <li><a href="https://www.csoonline.com/article/3616583/tips-and-tactics-of-todays-cybersecurity-threat-hunters.html" target="_blank">Tips and tactics of today’s cybersecurity threat hunters</a></li>
+    <li><a href="https://www.csoonline.com/article/3367797/12-tips-for-effectively-presenting-cybersecurity-to-the-board.html" target="_blank">12 tips for effectively presenting cybersecurity to the board</a></li>
+    <li><a href="https://www.csoonline.com/article/3617809/what-cisos-really-want-from-security-vendors.html" target="_blank">What CISOs really want from security vendors</a></li>
+    <li><a href="https://www.csoonline.com/article/3617910/minimizing-damage-from-a-data-breach.html" target="_blank">Minimizing damage from a data breach: A checklist</a></li>
+</ul>
+</div>
+    </body>
+</html>
